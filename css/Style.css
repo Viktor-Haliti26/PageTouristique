@@ -1,15 +1,43 @@
-div h1 {
-    color: orange;
+html * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    border: solid 2px red;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    /* width: 1200px;
+    height: 400px; */
+    background: url("/image/cascade.png") center / cover no-repeat;
+}
+
+header > div {
+    display:flex;
+    justify-content: space-around;
+    width: 60vw;
+    color: #ffffff;
+    font-size: 16px;
     font-weight: bolder;
-
 }
 
-body {
-background: red;
+h1 {
+    margin-right: 5vw;
+    margin-left: 3vw;
+    font-size:60px;
+    color: #ffffff;
 }
 
-.test{
-    width: 50px;
-    height: 50px;
-    background: yellow;
+main {
+    border: solid 2px blue;
+    min-height: 40vh;
+    background-color: #190108;
+}
+
+footer {
+    border: solid 2px black;
+    min-height: 10vh;
+    background-color:#190108;
 }
