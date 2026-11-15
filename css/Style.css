@@ -28,17 +28,25 @@ header div {
     text-align: center;
     width: 100vw;
     height: 10vh;
+    color: #ffffff;
+    transition: 0.5s;
 }
 
-header div:Hover {
+header div:Hover{
     background-color: white;
     opacity: 0.8;
+}
+
+header div:Hover nav{
     color: black;
+}
+
+header div:Hover h1{
+    color: red;
 }
 
 header div > nav {
     width: 60vw;
-    color: #ffffff;
     font-size: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -55,8 +63,23 @@ header div h1 {
     margin-right: 5vw;
     margin-left: 3vw;
     font-size: 60px;
-    color: #ffffff;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.PETU{
+    color: red;
+}
+
+.e_et_o {
+    color: white;
+}
+
+header div:Hover .PETU {
+    color: red;
+}
+
+header div:Hover .e_et_o{
+    color: red;
 }
 
 main {
