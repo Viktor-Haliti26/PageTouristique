@@ -150,6 +150,75 @@ main {
     margin-bottom: 100px;
 }
 
+#Touriste h1{
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+    margin:100px;
+    text-decoration: underline;
+}
+
+.texteNav h2 {
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    margin: 50px;
+}
+
+.texteNav p {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 30vw;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+}
+
+.texteNav {
+    margin-bottom: 3vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.PageTouriste img{
+    border-radius: 28px;
+    width: 25vw;
+}
+
+.PageTouriste img{
+    border-radius: 28px;
+    width: 25vw;
+}
+
+.PageTouriste img{
+    border-radius: 28px;
+    width: 25vw;
+}
+
+.PageTouriste img{
+    border-radius: 28px;
+    width: 25vw;
+}
+
+.PageTouriste img{
+    border-radius: 28px;
+    width: 25vw;
+}
+
+.PageTouriste {
+    text-align: center;
+}
+
+#listeTouriste {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
 footer {
     border: solid 2px black;
     min-height: 10vh;
