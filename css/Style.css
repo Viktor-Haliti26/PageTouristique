@@ -132,7 +132,7 @@ main {
 
 #partie2 {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     align-items: center;
     justify-content: space-around;
     margin-bottom: 100px;
@@ -149,11 +149,6 @@ main {
     justify-content: space-around;
     margin-bottom: 100px;
 }
-
-
-
-
-
 
 footer {
     border: solid 2px black;
