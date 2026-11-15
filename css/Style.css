@@ -42,7 +42,6 @@ main {
 
 #drapeau h1 {
     color: #ffffff;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 40px;
     text-align: center;
     margin:100px;
@@ -69,6 +68,91 @@ main {
     color: #ffffff;
     font-size: 30px;
 }
+
+#histoire h1{
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+    margin:100px;
+    text-decoration: underline;
+}
+
+#partie1 img{
+    border-radius: 28px;
+}
+
+.texte h2 {
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    margin: 50px;
+}
+
+.texte p {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50vw;
+    color: #ffffff;
+    font-size: 23px;
+}
+
+.texte {
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#partie1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.texte h2 {
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    margin: 50px;
+}
+
+.texte p {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50vw;
+    color: #ffffff;
+    font-size: 23px;
+}
+
+#partie2 img{
+    border-radius: 28px;
+}
+
+#partie2 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+#partie3 img{
+    border-radius: 28px;
+}
+
+#partie3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+
+
+
 
 
 footer {
