@@ -21,6 +21,17 @@ header {
     font-weight: bold;
 }
 
+header a,
+footer a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+header li:hover{
+    color:red
+}
+
 header div {
     display: flex;
     flex-direction: row;
@@ -218,11 +229,16 @@ main {
 .PageTouriste img {
     border-radius: 28px;
     width: 25vw;
+    transition: width 0.3s;
 }
 
 .PageTouriste {
     text-align: center;
     list-style: none;
+}
+
+.PageTouriste a:hover img {
+    width: 27vw;
 }
 
 #listeTouriste {
@@ -237,6 +253,10 @@ footer {
     min-height: 10vh;
     background-color: #190108;
     color: #ffffff;
+}
+
+footer a:hover{
+    color:darkred
 }
 
 footer div {
