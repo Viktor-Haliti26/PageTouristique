@@ -85,9 +85,9 @@ header div h1 {
     color: white;
 }
 
-header div:Hover .PETU {
+/* header div:Hover .PETU {
     color: red;
-}
+} */
 
 header div:Hover .e_et_o{
     color: red;
@@ -97,6 +97,22 @@ main {
     display: flow-root;
     min-height: 40vh;
     background-color: #190108;
+}
+
+#PMenuMain {
+    display: block;
+    width: 50vw;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    margin: 0% auto;
+    margin-top: 3vw;
+}
+
+#Bienvenu {
+    display: inline-block;
+    text-decoration: underline;
+    margin: 2vw;
 }
 
 #drapeau h1 {
