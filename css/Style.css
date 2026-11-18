@@ -17,7 +17,7 @@ header {
     text-align: center;
     /* width: 1200px;
     height: 400px; */
-    background: url("/image/Machu_Picchu_fond_3823x2008.jpg") top / cover no-repeat;
+    background: url("../image/Machu_Picchu_fond_3823x2008.jpg") top / cover no-repeat;
     font-weight: bold;
 }
 
